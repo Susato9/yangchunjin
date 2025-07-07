@@ -11,25 +11,25 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "杨纯金/个人主页"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Chun-Jin Yang" # Your name, e.g. "John Doe"
+description              : &description "helloworld" # A short description of your site, e.g. "A blog about my life and work as a software engineer."
+url                      : https://susato9.github.io/yangchunjin/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "https://github.com/Susato9/yangchunjin"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "ycj.jpg"
+  name             : "Chun-Jin Yang" # Your name, e.g. "John Doe"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : 
+  location         : "Chendu, China" # Your location, e.g. "San Francisco, CA, USA"
+  employer         : "UESTC"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "au_young@163.com" 
 
   # Academic websites
   academia         : # URL

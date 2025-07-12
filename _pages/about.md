@@ -34,25 +34,24 @@ redirect_from:
     * 🏅 2020年 优秀共青团员
 
 * **2023年-2025年** 电子科技大学 信息与通信工程学院 信息与通信工程专业（A+）
-    * 📄 2025年 neuro-symbolic method for explainable remote sensing visual question answer 论文中稿
-    * 📄 2025年 CMP: Composable Meta Prompt for SAM-based Cross-Domain Few-shot Segmentation 论文中稿
+    * 📄 2025年 neuro-symbolic method for explainable remote sensing visual question answer 遥感顶会，CCF-B 论文中稿
+    * 📄 2025年 CMP: Composable Meta Prompt for SAM-based Cross-Domain Few-shot Segmentation ICIP CCF-C  论文中稿
     * 🥉 2024年 “华为杯”第6届研究生人工智能创新大赛 全国三等奖
-    * 📄 2023年 Instance-Wise Adaptive Tuning and Caching for Vision-Language Models 论文中稿
+    * 📄 2023年 Instance-Wise Adaptive Tuning and Caching for Vision-Language Models ECAI CCF-B 论文中稿
 
 ---
 
 ## 🏢 实习经历
 
 **蔚来汽车 | 自动驾驶-大模型开发与应用部门 | 多模态Agent团队**  
-<small>2024年</small>
+<small>2024年-05月至今</small>
 
-- **主要工作**：基于多模态大语言模型的地下停车场端到端自动驾驶VLA算法研发，构建地下停车场VLA数据，并结合开源数据微调Qwen2.5-VL-7B+DiT模型，实现地下停车场自动导航算法，在验证集上的未来3s预测轨迹的L2距离达到0.6m。
+- **主要工作**：基于多模态大语言模型的地下停车场端到端自动驾驶VLA算法研发，提出短思维链数据pipeline构建大规模场景VLA数据，微调Qwen2.5-VL-7B+DiT模型，实现地下停车场自动导航算法，在验证集上的未来3s预测轨迹的L2距离达到0.55m。
 
 - **技术贡献**：
-    1. 整合9个开源自动驾驶VQA数据集，规范所有有bbox的数据，得到2.3M开源自动驾驶VQA数据集，使用deepspeed zero2全参微调QwenVL-2.5-7B，作为基础模型。
-    2. 提出地下停车场COT数据集构建pipeline，YOLOv8+ByteTrack检测路牌，SFT Qwen2.5-VL-7B做OCR路牌识别，人工绑定关键路牌，构造短思维链，丰富语料库，最终获得1.5w对图文对。
-    3. 提出视觉COT方法，通过历史帧token与当前帧token联合输入，提升无路牌场景下模型准确性2.1%。
-    4. 使用diffusion transformer作为policy模型，action token条件预测轨迹，MSE损失约束，与VQA任务联合训练，轨迹性能提升5.5%。
+    1. 为克服自然场景与自动驾驶领域的模态差异，整合9个主流开源自动驾驶VQA数据集。通过统一bbox标注规范，适配Qwen2.5-VL动态尺寸输入要求，构建规模达230万条的自动驾驶多模态QA数据集。基于该数据集，采用DeepSpeed Zero-2对QwenVL-2.5-7B模型进行全参数微调,作为基础模型。
+    2. 针对地下停车场的场景，提出地下停车短COT数据集构建pipeline。首先使用YOLOv8+ByteTrack对所有的路牌进行检测和跟踪，微调Qwen2.5-VL-32B构建专用OCR模型并人工校验关键路牌语义绑定；然后按照“我在哪，为什么，当前状态，下一步应该去哪，为什么？未来三秒的轨迹”的模板构造短COT并使用Qwen3丰富语料库用词，共得到12.5万对结构化推理图文对；最后，为提高没有路牌时模型的性能，提出视觉COT方法，通过从历史4帧中每帧随机采样25%的token与当前帧的token一起送给大语言模型，通过该方法测试集轨迹预测误差降低2.1%。
+    3. 针对复杂路口场景的多模态轨迹预测挑战，设计 Diffusion Transformer策略模型，通过Action Token条件逐步降噪生成连续轨迹，采用MSE损失约束轨迹生成过程​，强化动作序列的连续性，与QA任务联合训练，实现多任务协同优化​；相较纯语言模型预测方案，轨迹预测准确率提升5.5%​，该架构通过轨迹生成与语义理解的深度耦合​，同步增强端到端决策的可解释性，并在无路牌场景下将轨迹定位误差降低3.2%。
 
 ---
 

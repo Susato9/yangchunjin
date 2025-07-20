@@ -9,7 +9,7 @@ redirect_from:
 
 ## 👤 个人信息
 
-| 🏷️ 姓名   | 👨‍🦰 性别 | 🏛️ 政治面貌 | 🎂 出生日期   | 📧 邮箱              | 📱 电话         | 🏡 籍贯     | 🎓 学历               |
+| 🏷️ 姓名   | 👨‍🦰 性别 | 🏛️ 政治面貌 | 🎂 出生年月   | 📧 邮箱              | 📱 电话         | 🏡 籍贯     | 🎓 学历               |
 |:----------:|:--------:|:------------:|:--------------:|:--------------------:|:--------------:|:----------:|:---------------------:|
 | **杨纯金** | 男       | 中共党员     | 2000年05月     | [au_young@163.com](mailto:au_young@163.com) | 15687459217  | 云南曲靖     | 电子科技大学 硕士     |
 
@@ -18,6 +18,15 @@ redirect_from:
 
 ## 🎓 主要研究方向
 **多模态大语言模型(MLLM) | 多模态目标检测 | 视觉-动作-语言(VLA) |目标检测| RAG**  
+
+---
+
+## 📄 学术成果
+* [Instance-Wise Adaptive Tuning and Caching for Vision-Language Models](https://ebooks.iospress.nl/doi/10.3233/FAIA230595) ECAI CCF-B 
+* [neuro-symbolic method for explainable remote sensing visual question answer](https://2025.ieeeigarss.org/tempdev/view_paper.php?PaperNum=3196&SessionID=1628) 遥感顶会，CCF-B 
+* [CMP: Composable Meta Prompt for SAM-based Cross-Domain Few-shot Segmentation](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php) ICIP CCF-C 
+* [SS-DC: Spatial-Spectral Decoupling and Coupling Across Visible-Infrared Gap for Domain Adaptive Object Detection](https://arxiv.org/abs/2507.12017)
+* Wavelet-Based Multispectral Detection Transformer with Adaptive Frequency-aware Query Learning (在投)
 
 ---
 

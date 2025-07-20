@@ -22,11 +22,11 @@ redirect_from:
 ---
 
 ## 📄 学术成果
-* [Instance-Wise Adaptive Tuning and Caching for Vision-Language Models](https://ebooks.iospress.nl/doi/10.3233/FAIA230595) ECAI CCF-B 
-* [neuro-symbolic method for explainable remote sensing visual question answer](https://2025.ieeeigarss.org/tempdev/view_paper.php?PaperNum=3196&SessionID=1628) 遥感顶会，CCF-B 
-* [CMP: Composable Meta Prompt for SAM-based Cross-Domain Few-shot Segmentation](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php) ICIP CCF-C 
-* [SS-DC: Spatial-Spectral Decoupling and Coupling Across Visible-Infrared Gap for Domain Adaptive Object Detection](https://arxiv.org/abs/2507.12017)
-* Wavelet-Based Multispectral Detection Transformer with Adaptive Frequency-aware Query Learning (在投)
+* [Instance-Wise Adaptive Tuning and Caching for Vision-Language Models](https://ebooks.iospress.nl/doi/10.3233/FAIA230595) ECAI-23 CCF-B 
+* [neuro-symbolic method for explainable remote sensing visual question answer](https://2025.ieeeigarss.org/tempdev/view_paper.php?PaperNum=3196&SessionID=1628) 遥感顶会IGARSS,CCF-B 
+* [CMP: Composable Meta Prompt for SAM-based Cross-Domain Few-shot Segmentation](https://cmsworkshops.com/ICIP2025/papers/accepted_papers.php) ICIP-25 CCF-C 
+* [SS-DC: Spatial-Spectral Decoupling and Coupling Across Visible-Infrared Gap for Domain Adaptive Object Detection](https://arxiv.org/abs/2507.12017) arxiv
+* Wavelet-Based Multispectral Detection Transformer with Adaptive Frequency-aware Query Learning TGRS (在投)
 
 ---
 
